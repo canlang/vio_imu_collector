@@ -2,7 +2,9 @@
 
 A comprehensive Flutter application for collecting and recording sensor data from mobile devices, with support for IMU sensors, device orientation, and ARKit VIO (Visual-Inertial Odometry) tracking.
 
-![App Icon](ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png)
+<div align="center">
+  <img src="assets/icon/app_icon_preview.png" alt="Sensor Data Collector App Icon" width="128" height="128">
+</div>
 
 ## Features
 
