@@ -324,7 +324,7 @@ class _SensorDataCollectorPageState extends State<SensorDataCollectorPage> {
       );
     }
 
-    return Container(
+    return SizedBox(
       height: 200,
       child: ARKitSceneView(
         onARKitViewCreated: (controller) {
@@ -490,7 +490,7 @@ class _SensorDataCollectorPageState extends State<SensorDataCollectorPage> {
                   ),
                   const Spacer(),
                   Text(
-                      'Data points: ${_sensorData.length > 0 ? _sensorData.length - 1 : 0} ($_selectedSensorSpeed)'),
+                      'Data points: ${_sensorData.isNotEmpty ? _sensorData.length - 1 : 0} ($_selectedSensorSpeed)'),
                 ],
               ),
             ),
